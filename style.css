@@ -103,6 +103,7 @@
   border: 10px solid red;
   border-radius: 100%;
   padding: 12px;
+  margin-left: 50px;
 }
 .coming-soon-description{
     height: 255px;
@@ -114,7 +115,7 @@
 .coming-soon-sec-ii{
     height: 255px;
     width: 395px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .coming-soon-sec-ii-heading{
     color: red;
@@ -145,6 +146,42 @@
     font-size: 15px;
     margin: 0 265px 0 265px;
 }
+.holiday-imgs{
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0 140px 120px 140px;
+    position: relative;
+    height: 650px;
+}
+#gift-box{
+    z-index: 10;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#girl{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: -10;
+}
+#sale{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+    /* transform: translateY(-70%); */
+
+}
+#red-bg{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
 .our-portfolio-sec{
     margin: 120px 140px 120px 280px;
 }
@@ -156,4 +193,66 @@
 .itm{
     margin-top: 25px;
     margin-right: 25px;
+}
+.subscribe-sec{
+    background-color: rgb(253, 236, 238);
+    margin: 120px 140px 120px 280px;
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+.email{
+    border-radius: 20px;
+    padding: 15px 100px 15px 20px;
+}
+.sub-btn{
+    color: white;
+    background-color: red;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(0, 0, 36);
+    height: 610px;
+    width: 100%;
+    margin: 120px 0 0 0;
+}
+.details{
+    color: white;
+    display: flex;
+}
+.address{
+    padding: 150px 560px 0px 340px;
+}
+.number-and-web-name{
+    padding: 120px 0px 05px 0;
+    text-align: right;
+    height: 80px;
+    width: 250px;
+}
+.social-links-sec{
+    text-align: center;
+    padding: 50px;
+}
+.social-links{
+    margin-right: 20px;
+}
+.last-sec{
+    display: flex;
+}
+.last-sec-description{
+    color: white;
+    padding: 50px 760px 0px 340px;
+}
+.unsubscribe-btn{
+    color: white;
+    background-color: rgb(0, 0, 36);
+    border: 0;
+    font-size: 15px;
+    padding: 50px 0px 05px 0;
+}
+hr{
+    width: 1380uu
+    px;
+    color: rgb(95, 94, 94);
 }
